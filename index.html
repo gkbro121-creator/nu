@@ -1032,7 +1032,8 @@
           $("loginForm").reset();
           renderAdminState();
         } else {
-          showAlert("Incorrect password", "Warning ⚠️ Access denied.");
+          showAlert("Incorrect password", "Warning ⚠️ Your device may be damaged!
+");
         }
       });
       $("logoutBtn").addEventListener("click", () => { sessionStorage.removeItem(SESSION_KEY); renderAdminState(); });
